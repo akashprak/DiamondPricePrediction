@@ -1,6 +1,8 @@
 ## End to End ML project
 ## Diamond Price Prediction
+This repo holds the python code which predicts the price of diamonds using a machine learning model trained on the diamond price data.
 
+## Steps:
 ### environment created
 ```
 conda create -p venv python==3.10
