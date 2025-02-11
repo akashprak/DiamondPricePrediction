@@ -1,8 +1,7 @@
 from flask import Flask, request, render_template
 from src.pipeline.prediction_pipeline import PredictPipeline, CustomData
 
-application = Flask(__name__)
-app = application
+app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/predict',methods=['GET','POST'])
